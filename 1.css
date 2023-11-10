@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #a3a1a1;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    width: 400px;
+    border: 2px solid #060606;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #aba8a8;
+}
+
+.label input,
+.label text,
+.label select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.radio {
+    margin-top: 10px;
+}
+
+.information {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #030303;
+}
